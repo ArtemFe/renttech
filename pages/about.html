@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RentTech | Каталог</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+            <div class="contain header-wrapper">
+                <div class="left-wrapper">
+                    <a class="logo" href="../index.html">RentTech</a>
+                    <div class="menu text-header">
+                        <a href="catalog.html">Каталог</a>
+                        <a href="about.html">О компании</a>
+                        <a>Поддержка</a>
+                    </div>
+                </div>
+                <div class="right-wrapper">
+                    <select id="city">
+                        <option selected>Оренбург</option>
+                        <option>Москва</option>
+                        <option>Санкт-Петербург</option>
+                        <option>Новосибирск</option>
+                        <option>Краснодар</option>
+                        <option>Екатеринбург</option>
+                        <option>Казань</option>
+                        <option>Уфа</option>
+                        <option>Нижний Новгород</option>
+                        <option>Челябинск</option>
+                        <option>Самара</option>
+                        <option>Ростов-на-Дону</option>
+                        <option>Омск</option>
+                        <option>Красноярск</option>
+                        <option>Воронеж</option>
+                        <option>Пермь</option>
+                        <option>Волгоград</option>
+                        <option>Владивосток</option>
+                    </select>
+                    <button><img src="../images/heart.svg"></button>
+                    <button><img src="../images/cart.svg"></button>
+                    <button><img src="../images/user.svg"></button>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="contain">
+                <button class="text-p" id="categories"><img src="../images/menu.png">категории</button>
+                <div class="search-wrapper">
+                    <input class="search text-p">
+                    <button class="button-search text-p">Поиск</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="about">
+        <div class="contain">
+            <div class="about__top">
+                <h1 class="about__title">О нас</h1>
+                <p class="about__desc">
+                    RentTech — это платформа для аренды профессионального оборудования, которая
+                    соединяет владельцев техники с теми, кому она нужна. Мы предлагаем широкий выбор техники для бизнеса
+                    и
+                    личных нужд, гарантируя качество и надёжность каждой сделки.
+                </p>
+            </div>
+            <a class="about__logo logo" id="logo" href="/">RentTech</a>
+            <div class="about__bottom">
+                <h2 class="about__title">История</h2>
+                <p class="about__desc">
+                    RentTech была основана в 2022 году группой специалистов, которые поняли,
+                    что многие компании и индивидуальные предприниматели сталкиваются
+                    с необходимостью краткосрочной аренды оборудования. Мы начали
+                    с небольшой базы техники и постепенно расширили наш каталог, чтобы охватить разные отрасли — от
+                    строительства до IT и мероприятий.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="contain values">
+        <h2 class="values__title">Ценности</h2>
+        <ul class="values__list">
+            <li class="values__item">
+                <div class="values__subtitle">
+                    <span>Надежность</span>
+                    <img src="../images/arrow-redirectr.svg" alt="Надежность">
+                </div>
+                <p class="values__desc">Мы гарантируем качество и исправность каждого оборудования.</p>
+            </li>
+            <li class="values__item">
+                <div class="values__subtitle">
+                    <span>Простота</span>
+                    <img src="../images/arrow-redirectr.svg" alt="Простота">
+                </div>
+                <p class="values__desc">Аренда у нас не требует сложных процедур. Весь процесс автоматизирован и
+                    прозрачен.</p>
+            </li>
+            <li class="values__item">
+                <div class="values__subtitle">
+                    <span>Безопасность</span>
+                    <img src="../images/arrow-redirectr.svg" alt="Безопасность">
+                </div>
+                <p class="values__desc">Каждая сделка защищена с помощью системы залогов и проверок.</p>
+            </li>
+            <li class="values__item">
+                <div class="values__subtitle">
+                    <span>Экологичность</span>
+                    <img src="../images/arrow-redirectr.svg" alt="Экологичность">
+                </div>
+                <p class="values__desc">Аренда помогает снизить количество одноразовых покупок и бережёт ресурсы.</p>
+            </li>
+        </ul>
+        <ul class="values__secondList">
+            <li class="values__secondItem">
+                <img class="values__img" src="../images/values-1.png" alt="img">
+                <p class="values__secondDesc">
+                    Проверка оборудования — все товары проходят обязательную проверку перед
+                    выдачей
+                </p>
+            </li>
+            <li class="values__empty"></li>
+
+            <li class="values__secondItem">
+                <img class="values__img" src="../images/values-2.png" alt="img">
+                <p class="values__secondDesc">
+                    Доставка и возврат — предлагаются услуги доставки техники к вам и обратно
+                </p>
+            </li>
+            <li class="values__empty"></li>
+
+            <li class="values__empty"></li>
+            <li class="values__secondItem">
+                <img class="values__img" src="../images/values-3.png" alt="img">
+                <p class="values__secondDesc">
+                    Гарантия безопасности — мы блокируем залог на карте арендатора до завершения аренды
+                </p>
+            </li>
+
+            <li class="values__empty"></li>
+            <li class="values__secondItem">
+                <img class="values__img" src="../images/values-4.png" alt="img">
+                <p class="values__secondDesc">
+                    Поддержка 24/7 — наша служба поддержки готова помочь вам в любое время
+                </p>
+            </li>
+        </ul>
+    </section>
+    <section class="contain team">
+        <h2 class="team__title">Наша команда</h2>
+        <ul class="team__list">
+            <li class="team__item">
+                <img src="../images/team-1.jpg" alt="team 1">
+                <span class="team__title">Мария Петрова</span>
+                <p class="team__desc">
+                    Руководитель службы поддержки. Специалист по взаимодействию с клиентами.
+                </p>
+            </li>
+            <li class="team__item team__item--lg">
+                <img src="../images/team-2.jpg" alt="team 1">
+                <span class="team__title">Иван Смирнов</span>
+                <p class="team__desc">
+                    CEO и основатель. Опыт более 10 лет в сфере аренды и логистики.
+                </p>
+            </li>
+            <li class="team__item">
+                <img src="../images/team-3.jpg" alt="team 1">
+                <span class="team__title">Александр Васильев</span>
+                <p class="team__desc">
+                    Руководитель по работе с арендодателями. Специализируется на развитии сотрудничества с владельцами
+                    оборудования.
+                </p>
+            </li>
+        </ul>
+    </section>
+    <section class="reviews" style="margin-top: 60px;">
+        <center>
+            <h1 class="revies-title text-h1 wrapper">Отзывы</h1>
+        </center>
+        <div class="reviews-top contain">
+            <button class="review-button">Отзывы</button>
+            <img src="../images/google.svg">
+            <img src="../images/map_point.svg">
+        </div>
+        <p class="contain count-reviews text-p">120 отзывов из 2 источников</p>
+        <section class="reviews-bottom">
+            <img src="../images/arrow-left-slider.svg" id="leftreviewslider" onclick="review_left()">
+            <div class="reviews-slider" id="reviews-slider">
+                <div class="review-slider-wrapper">
+                    <div class="review-item">
+                        <div class="review-top-container">
+                            <div class="review-info">
+                                <div class="stars">
+                                    <img src="../images/star.svg">
+                                    <img src="../images/star.svg">
+                                    <img src="../images/star.svg">
+                                    <img src="../images/star.svg">
+                                    <img src="../images/star-empty.svg">
+                                </div>
+                                <div class="review-user">
+                                    <p class="text-20">Михаил</p>
+                                    <p class="review-date text-14">14 сент. 2024</p>
+                                </div>
+                            </div>
+                            <img src="../images/avatar0.png">
+                        </div>
+                        <div class="review-bottom-container none-detail">
+                            <p class="text-p">Отличная фирма. Есть много всего и цены отличные! Арендовал автобокс-Все
+                                показали и разъяснили, помогли установить! Территориально- находятся в хорошем и удобном
+                                районе. Остался очень доволен.</p>
+                            <p class="review-yandex text-14">Отзыв из Яндекс</p>
+                        </div>
+                    </div>
+                    <div class="review-item">
+                        <div class="review-top-container">
+                            <div class="review-info">
+                                <div class="stars">
+                                    <img src="../images/star.svg">
+                                    <img src="../images/star.svg">
+                                    <img src="../images/star.svg">
+                                    <img src="../images/star.svg">
+                                    <img src="../images/star-empty.svg">
+                                </div>
+                                <div class="review-user">
+                                    <p class="text-20">Дмитрий</p>
+                                    <p class="review-date text-14">14 сент. 2024</p>
+                                </div>
+                            </div>
+                            <div class="avatar1 text-avatar">Д</div>
+                        </div>
+                        <div class="review-bottom-container">
+                            <p class="review-text detail text-p">Заказывал две PS4 и два диска Mortal Combat X.
+                                Глобально один балл забрало время возврата, когда курьер может приехать за товаром -
+                                слишком большой разброс. Лучше сделать промежутки не по три часа, а...</p>
+                            <p class="review-detail text-p">Подробнее</p>
+                            <p class="review-yandex text-14">Отзыв из Яндекс</p>
+                        </div>
+                    </div>
+                    <div class="review-item">
+                        <div class="review-top-container">
+                            <div class="review-info">
+                                <div class="stars">
+                                    <img src="../images/star.svg">
+                                    <img src="../images/star.svg">
+                                    <img src="../images/star.svg">
+                                    <img src="../images/star.svg">
+                                    <img src="../images/star-empty.svg">
+                                </div>
+                                <div class="review-user">
+                                    <p class="text-20">Светлана</p>
+                                    <p class="review-date text-14">14 сент. 2024</p>
+                                </div>
+                            </div>
+                            <img src="../images/avatar1.png">
+                        </div>
+                        <div class="review-bottom-container">
+                            <p class="review-text text-p">Брала в аренду пылесос Karcher Se 6001. Со своей задачей
+                                справился, отлично отмыл мягкое кресло от пятен и собрал кошачью шерсть. Будем
+                                обязательно пользоваться прокатом. Очень удобно, большой выбор техники, менеджер
+                                объяс...</p>
+                            <p class="review-detail text-p">Подробнее</p>
+                            <p class="review-yandex text-14">Отзыв из Яндекс</p>
+                        </div>
+                    </div>
+                    <div class="review-item">
+                        <div class="review-top-container">
+                            <div class="review-info">
+                                <div class="stars">
+                                    <img src="../images/star.svg">
+                                    <img src="../images/star.svg">
+                                    <img src="../images/star.svg">
+                                    <img src="../images/star.svg">
+                                    <img src="../images/star-empty.svg">
+                                </div>
+                                <div class="review-user">
+                                    <p class="text-20">Сергей</p>
+                                    <p class="review-date text-14">14 сент. 2024</p>
+                                </div>
+                            </div>
+                            <img src="../images/avatar2.png">
+                        </div>
+                        <div class="review-bottom-container none-detail">
+                            <p class="text-p">Хорошее место. Брал велосипед на месяц, консультанты разбирающиеся и
+                                понимающие</p>
+                            <p class="review-yandex text-14">Отзыв из Яндекс</p>
+                        </div>
+                    </div>
+                    <div class="review-item">
+                        <div class="review-top-container">
+                            <div class="review-info">
+                                <div class="stars">
+                                    <img src="../images/star.svg">
+                                    <img src="../images/star.svg">
+                                    <img src="../images/star.svg">
+                                    <img src="../images/star.svg">
+                                    <img src="../images/star-empty.svg">
+                                </div>
+                                <div class="review-user">
+                                    <p class="text-20">Дима</p>
+                                    <p class="review-date text-14">14 сент. 2024</p>
+                                </div>
+                            </div>
+                            <div class="avatar1 text-avatar">Д</div>
+                        </div>
+                        <div class="review-bottom-container none-detail">
+                            <p class="text-p">Все норм</p>
+                            <p class="review-yandex text-14">Отзыв из Яндекс</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="../images/arrow-right-slider.svg" id="rightreviewslider" onclick="review_right()">
+        </section>
+        <footer>
+            <div class="footer-wrapper contain">
+                <div class="footer-list">
+                    <div class="footer-item">
+                        <a class="logo" href="#">RentTech</a>
+                        <a class="text-p footer-menu-item" href="#">Главная</a>
+                        <a class="text-p footer-menu-item" href="#">Каталог</a>
+                        <a class="text-p footer-menu-item" href="#">О нас</a>
+                        <a class="text-p footer-menu-item" href="#">Личный кабинет</a>
+                        <a class="text-p footer-menu-item" href="#">Помощь</a>
+                    </div>
+                    <div class="footer-item">
+                        <a class="footer-title text-20" href="#">Компания</a>
+                        <a class="text-p footer-menu-item" href="#">Доставка и оплата</a>
+                        <a class="text-p footer-menu-item" href="#">Как это работает</a>
+                        <a class="text-p footer-menu-item" href="#">Условия аренды</a>
+                        <a class="text-p footer-menu-item" href="#">Защита</a>
+                        <a class="text-p footer-menu-item" href="#">Вопросы и ответы</a>
+                    </div>
+                    <div class="footer-item">
+                        <a class="footer-title text-20" href="#">Каталог</a>
+                        <a class="text-p footer-menu-item" href="#">Камеры</a>
+                        <a class="text-p footer-menu-item" href="#">Объективы</a>
+                        <a class="text-p footer-menu-item" href="#">Портативные колонки</a>
+                        <a class="text-p footer-menu-item" href="#">Диджей установки</a>
+                        <a class="text-p footer-menu-item" href="#">Строй инструменты</a>
+                        <a class="text-p footer-menu-item" href="#">Пылесосы, уборка и клиннинг</a>
+                    </div>
+                    <div class="pay">
+                        <a class="footer-title text-20" style="padding: 0px;">Все сделки защищены</a>
+                        <div class="pay-logo">
+                            <img src="../images/mir.png">
+                            <img src="../images/mastercard.png">
+                            <img src="../images/visa.png">
+                            <img src="../images/unionpay.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div>
+                        <div class="footer-name">
+                            <a class="footer-title text-20" style="padding: 0px;">Подпишись</a>
+                            <a class="text-p">Будь в курсе всех новинок и предложений!</a>
+                        </div>
+                        <div class="email">
+                            <div class="email-actions">
+                                <input type="email" class="email-input text-p" placeholder="Введите ваш E-mail">
+                                <button class="email-button"><img src="../images/arrow-email.svg"></button>
+                            </div>
+                            <div class="confirmed">
+                                <input type="checkbox">
+                                <a class="text-14">согласен с условиями соглашения</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-socials">
+                        <div class="socials">
+                            <a href="#"><img src="../images/vk.svg"></a>
+                            <a href="#"><img src="../images/tg.svg"></a>
+                            <a href="#"><img src="../images/whatsapp.svg"></a>
+                        </div>
+                        <p class="footer-description">2022-2024 с renttech.ru — онлайн сервис аренды техники. Все права
+                            защищены. ООО «RentTech», Юридический адрес: 460000, Оренбург, ул. Чкалова, д.1/1, стр.1,
+                            этаж
+                            2, комната 23</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </footer>
+        <script src="../home-slider.js"></script>
+</body>
+
+</html>

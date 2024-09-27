@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RentTech | Каталог</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+            <div class="contain header-wrapper">
+                <div class="left-wrapper">
+                    <a class="logo" href="../index.html">RentTech</a>
+                    <div class="menu text-header">
+                        <a href="catalog.html">Каталог</a>
+                        <a href="about.html">О компании</a>
+                        <a>Поддержка</a>
+                    </div>
+                </div>
+                <div class="right-wrapper">
+                    <select id="city">
+                        <option selected>Оренбург</option>
+                        <option>Москва</option>
+                        <option>Санкт-Петербург</option>
+                        <option>Новосибирск</option>
+                        <option>Краснодар</option>
+                        <option>Екатеринбург</option>
+                        <option>Казань</option>
+                        <option>Уфа</option>
+                        <option>Нижний Новгород</option>
+                        <option>Челябинск</option>
+                        <option>Самара</option>
+                        <option>Ростов-на-Дону</option>
+                        <option>Омск</option>
+                        <option>Красноярск</option>
+                        <option>Воронеж</option>
+                        <option>Пермь</option>
+                        <option>Волгоград</option>
+                        <option>Владивосток</option>
+                    </select>
+                    <button><img src="../images/heart.svg"></button>
+                    <button><img src="../images/cart.svg"></button>
+                    <button><img src="../images/user.svg"></button>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="contain">
+                <button class="text-p" id="categories"><img src="../images/menu.png">категории</button>
+                <div class="search-wrapper">
+                    <input class="search text-p">
+                    <button class="button-search text-p">Поиск</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="contain">
+        <div class="breadcrumbs">
+            <span>Главная</span>
+            <img src="../images/chevron.svg" alt="arrow">
+            <span>Каталог</span>
+            <img src="../images/chevron.svg" alt="arrow">
+            <span>Видеосъемка</span>
+        </div>
+    </div>
+    <div class="contain catalog">
+        <div class="catalog__wrapper">
+            <div class="filters">
+                <span class="filters__title">Найдено по фильтрам: 6</span>
+                <ul class="filters__list">
+                    <li class="filters__item">
+                        <span class="filters__itemName">Категории</span>
+                        <span class="filters__itemValue">Камеры</span>
+                        <span class="filters__itemValue">Стабилизаторы</span>
+                        <span class="filters__itemValue">Дроны</span>
+                        <span class="filters__itemValue">Микрофоны</span>
+                        <span class="filters__itemValue">CD - карты</span>
+                    </li>
+
+                    <li class="filters__item">
+                        <span class="filters__itemName">Производители</span>
+                        <div class="filters__itemValue">
+                            <input type="checkbox" id="HikVision"/>
+                            <label for="HikVision">HikVision</label>
+                        </div>
+                        <div class="filters__itemValue">
+                            <input type="checkbox" id="HiWatch"/>
+                            <label for="HiWatch">HiWatch</label>
+                        </div>
+                        <div class="filters__itemValue">
+                            <input type="checkbox" id="Ezviz"/>
+                            <label for="HiWatch">Ezviz</label>
+                        </div>
+                        <div class="filters__itemValue">
+                            <input type="checkbox" id="Go Pro"/>
+                            <label for="HiWatch">Go Pro</label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <ul class="catalog__list">
+                <li class="hits-item"><a href="product.html" class="hits-link-item">
+                    <div class="hits-image">
+                        <img src="../images/go pro1 (1).jpg">
+                    </div>
+                    <div class="hit-info">
+                        <p class="hit-name text-p"><strong>Gopro Hero 7 Black</strong>
+                        </p>
+                        <p class="text-p">Цена: от <strong style="color: var(--gray-hit-price);">210 ₽/сутки</strong>
+                        </p>
+                    </div>
+                    <div class="hit-actions">
+                        <button id="add-cart">Добавить в корзину</button>
+                        <button id="add-favorites"><img src="../images/heart2.png"></button>
+                    </div>
+                </li></a>
+                <li class="hits-item"><a href="product.html" class="hits-link-item">
+                    <div class="hits-image">
+                        <img src="../images/zoom.png">
+                    </div>
+                    <div class="hit-info">
+                        <p class="hit-name text-p"><strong>Портативный рекордер (микрофон для записи) Zoom H1</strong>
+                        </p>
+                        <p class="text-p">Цена: от <strong style="color: var(--gray-hit-price);">100 ₽/сутки</strong>
+                        </p>
+                    </div>
+                    <div class="hit-actions">
+                        <button id="add-cart">Добавить в корзину</button>
+                        <button id="add-favorites"><img src="../images/heart2.png"></button>
+                    </div>
+                </li></a>
+                <li class="hits-item"><a href="product.html" class="hits-link-item">
+                    <div class="hits-image">
+                        <img src="../images/cam2 (1).jpg">
+                    </div>
+                    <div class="hit-info">
+                        <p class="hit-name text-p"><strong>Квадрокоптер DJI Mavic 2 Pro</strong>
+                        </p>
+                        <p class="text-p">Цена: от <strong style="color: var(--gray-hit-price);">1050 ₽/сутки</strong>
+                        </p>
+                    </div>
+                    <div class="hit-actions">
+                        <button id="add-cart">Добавить в корзину</button>
+                        <button id="add-favorites"><img src="../images/heart2.png"></button>
+                    </div>
+                </li></a>
+                <li class="hits-item"><a href="product.html" class="hits-link-item">
+                    <div class="hits-image">
+                        <img src="../images/image 11.png">
+                    </div>
+                    <div class="hit-info">
+                        <p class="hit-name text-p"><strong>Стабилизатор DJI Ronin SC</strong>
+                        </p>
+                        <p class="text-p">Цена: от <strong style="color: var(--gray-hit-price);">1450 ₽/сутки</strong>
+                        </p>
+                    </div>
+                    <div class="hit-actions">
+                        <button id="add-cart">Добавить в корзину</button>
+                        <button id="add-favorites"><img src="../images/heart2.png"></button>
+                    </div>
+                </li></a>
+                <li class="hits-item"><a href="product.html" class="hits-link-item">
+                    <div class="hits-image">
+                        <img src="../images/go pro2 (1).jpg">
+                    </div>
+                    <div class="hit-info">
+                        <p class="hit-name text-p"><strong>Go Pro Hero 11 mini</strong>
+                        </p>
+                        <p class="text-p">Цена: от <strong style="color: var(--gray-hit-price);">475 ₽/сутки</strong>
+                        </p>
+                    </div>
+                    <div class="hit-actions">
+                        <button id="add-cart">Добавить в корзину</button>
+                        <button id="add-favorites"><img src="../images/heart2.png"></button>
+                    </div>
+                </li></a>
+                <li class="hits-item"><a href="product.html" class="hits-link-item">
+                    <div class="hits-image">
+                        <img src="../images/richon (1).jpg">
+                    </div>
+                    <div class="hit-info">
+                        <p class="hit-name text-p"><strong>Камера Ricoh Theta V</strong>
+                        </p>
+                        <p class="text-p">Цена: от <strong style="color: var(--gray-hit-price);">5000 ₽/сутки</strong>
+                        </p>
+                    </div>
+                    <div class="hit-actions">
+                        <button id="add-cart">Добавить в корзину</button>
+                        <button id="add-favorites"><img src="../images/heart2.png"></button>
+                    </div>
+                </li></a>
+            </ul>
+        </div>
+    </div>
+    <div class="contain aims">
+        <ul class="aims__list">
+            <li class="aims__listItem">
+                <span class="aims__order">1</span>
+                <div class="aims__wrapper">
+                    <div class="aims__title">Выбирайте вещь</div>
+                    <div class="aims__desc">В нашем каталоге только качеcтвенные и проверенные товары</div>
+                </div>
+            </li>
+            <li class="aims__listItem">
+                <span class="aims__order">2</span>
+                <div class="aims__wrapper">
+                    <div class="aims__title">Определитесь с датой аренды</div>
+                    <div class="aims__desc">Чем дольше срок, тем дешевле цена</div>
+                </div>
+            </li>
+            <li class="aims__listItem">
+                <span class="aims__order">3</span>
+                <div class="aims__wrapper">
+                    <div class="aims__title">Будьте уверены в честности сервиса</div>
+                    <div class="aims__desc">Перед заказом мы проверяем паспортные данные</div>
+                </div>
+            </li>
+            <li class="aims__listItem">
+                <span class="aims__order">4</span>
+                <div class="aims__wrapper">
+                    <div class="aims__title">Мы гарантируем полную конфиденциальность</div>
+                    <div class="aims__desc">Ваши персональные данные под защитой</div>
+                </div>
+            </li>
+            <li class="aims__listItem">
+                <span class="aims__order">5</span>
+                <div class="aims__wrapper">
+                    <div class="aims__title">Закажите доставку по удобному
+                        адресу</div>
+                    <div class="aims__desc">Менеджер согласует время и место
+                        доставки</div>
+                </div>
+            </li>
+            <li class="aims__listItem">
+                <span class="aims__order">6</span>
+                <div class="aims__wrapper">
+                    <div class="aims__title">Мгновенная оплата</div>
+                    <div class="aims__desc">После подтверждения заказа
+                        производится списание средств</div>
+                </div>
+            </li>
+            <li class="aims__listItem">
+                <span class="aims__order">7</span>
+                <div class="aims__wrapper">
+                    <div class="aims__title">Используйте вещь в течение
+                        срока аренды</div>
+                    <div class="aims__desc">После вы можете:</div>
+                </div>
+                <ul class="aims__values">
+                    <li><span>Сдать вещь обратно</span></li>
+                    <li><span>Продолжить аренду, если вещь вам очень понравилась</span></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <div class="footer-wrapper contain">
+            <div class="footer-list">
+                <div class="footer-item">
+                    <a class="logo" href="#">RentTech</a>
+                    <a class="text-p footer-menu-item" href="#">Главная</a>
+                    <a class="text-p footer-menu-item" href="#">Каталог</a>
+                    <a class="text-p footer-menu-item" href="#">О нас</a>
+                    <a class="text-p footer-menu-item" href="#">Личный кабинет</a>
+                    <a class="text-p footer-menu-item" href="#">Помощь</a>
+                </div>
+                <div class="footer-item">
+                    <a class="footer-title text-20" href="#">Компания</a>
+                    <a class="text-p footer-menu-item" href="#">Доставка и оплата</a>
+                    <a class="text-p footer-menu-item" href="#">Как это работает</a>
+                    <a class="text-p footer-menu-item" href="#">Условия аренды</a>
+                    <a class="text-p footer-menu-item" href="#">Защита</a>
+                    <a class="text-p footer-menu-item" href="#">Вопросы и ответы</a>
+                </div>
+                <div class="footer-item">
+                    <a class="footer-title text-20" href="#">Каталог</a>
+                    <a class="text-p footer-menu-item" href="#">Камеры</a>
+                    <a class="text-p footer-menu-item" href="#">Объективы</a>
+                    <a class="text-p footer-menu-item" href="#">Портативные колонки</a>
+                    <a class="text-p footer-menu-item" href="#">Диджей установки</a>
+                    <a class="text-p footer-menu-item" href="#">Строй инструменты</a>
+                    <a class="text-p footer-menu-item" href="#">Пылесосы, уборка и клиннинг</a>
+                </div>
+                <div class="pay">
+                    <a class="footer-title text-20" style="padding: 0px;">Все сделки защищены</a>
+                    <div class="pay-logo">
+                        <img src="../images/mir.png">
+                        <img src="../images/mastercard.png">
+                        <img src="../images/visa.png">
+                        <img src="../images/unionpay.png">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div>
+                    <div class="footer-name">
+                        <a class="footer-title text-20" style="padding: 0px;">Подпишись</a>
+                        <a class="text-p">Будь в курсе всех новинок и предложений!</a>
+                    </div>
+                    <div class="email">
+                        <div class="email-actions">
+                            <input type="email" class="email-input text-p" placeholder="Введите ваш E-mail">
+                            <button class="email-button"><img src="../images/arrow-email.svg"></button>
+                        </div>
+                        <div class="confirmed">
+                            <input type="checkbox">
+                            <a class="text-14">согласен с условиями соглашения</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-socials">
+                    <div class="socials">
+                        <a href="#"><img src="../images/vk.svg"></a>
+                        <a href="#"><img src="../images/tg.svg"></a>
+                        <a href="#"><img src="../images/whatsapp.svg"></a>
+                    </div>
+                    <p class="footer-description">2022-2024 с renttech.ru — онлайн сервис аренды техники. Все права
+                        защищены. ООО «RentTech», Юридический адрес: 460000, Оренбург, ул. Чкалова, д.1/1, стр.1,
+                        этаж
+                        2, комната 23</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+</body>
+
+</html>
